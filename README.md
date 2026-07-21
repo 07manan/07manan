@@ -42,7 +42,7 @@ flowchart LR
 
 The repo also has a Go load-test harness (token-bucket pacing, HdrHistogram, four load shapes). It [measured](https://github.com/07manan/feature-flag/tree/main/benchmarking/results) p50 ~0.34 ms / p99 ~3 ms at ~1,000 RPS over a 10-minute constant run — on a single machine over loopback, so a micro-benchmark, not an SLO.
 
-The Java SDK is [published to Maven Central](https://repo1.maven.org/maven2/io/github/07manan/featureflags-java-sdk/1.0.0/):
+The Java SDK is [published to Maven Central](https://central.sonatype.com/artifact/io.github.07manan/featureflags-java-sdk):
 
 ```kotlin
 implementation("io.github.07manan:featureflags-java-sdk:1.0.0")
